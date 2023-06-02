@@ -1,0 +1,5 @@
+local args = {
+    [1] = "25K"
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Buttons.Center.Store.Codes.RemoteFunction:InvokeServer(unpack(args))
